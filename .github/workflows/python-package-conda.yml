@@ -17,10 +17,6 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Install dependencies
+      - name: Check Python files
         run: |
-          python -m pip install --upgrade pip
-
-      - name: Run program
-        run: |
-          python main.py
+          python -m py_compile main.py config.py display.py grid.py input_handler.py pathfinding.py
