@@ -1,0 +1,5 @@
+EMPTY = "."
+WALL = "#"
+START = "S"
+GOAL = "G"
+PATH = "*"
